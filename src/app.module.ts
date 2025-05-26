@@ -5,9 +5,10 @@ import { AuthGuard } from './common/guards';
 // modules
 import { ConfigureModule } from './config/config.module';
 import { TemplateModule } from './modules/template/template.module';
+import { ChatModule } from './modules/chat/chat.module';
 
 @Module({
-  imports: [ConfigureModule, TemplateModule],
+  imports: [ConfigureModule, TemplateModule, ChatModule],
   providers: [
     {
       provide: APP_GUARD,
