@@ -1,15 +1,21 @@
 import { Module } from '@nestjs/common';
+import { ConfigModule, ConfigService } from '@nestjs/config';
 import { ChatChain } from './chains/chat.chain';
 import { ChatPrompt } from './prompts/chat.prompt';
 
 @Module({
+  imports: [ConfigModule],
   providers: [
     {
       provide: 'LANGCHAIN_CONFIG',
-      useValue: {
-        // 환경 변수에서 가져올 설정들
-        modelName: 'gpt-3.5-turbo', // 기본값
-      },
+      useFactory: (configService: ConfigService) => ({
+        openaiApiKey: configService.get<string>('OPENAI_API_KEY'),
+        modelName: configService.get<string>(
+          'OPENAI_MODEL_NAME',
+          'gpt-3.5-turbo',
+        ),
+      }),
+      inject: [ConfigService],
     },
     ChatChain,
     ChatPrompt,
