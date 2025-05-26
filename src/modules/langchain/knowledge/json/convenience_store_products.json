@@ -1,0 +1,424 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "type": "음료",
+      "name": "반짝이는 판다 아메리카노",
+      "price": 2500,
+      "popularity": 95,
+      "description": "신선한 원두로 추출한 아이스 아메리카노",
+      "metadata": {
+        "category": "커피",
+        "volume": "355ml",
+        "calories": 5,
+        "caffeine": true
+      }
+    },
+    {
+      "id": 2,
+      "type": "과자",
+      "name": "웃는 고래 콘칩",
+      "price": 1800,
+      "popularity": 88,
+      "description": "바삭한 식감의 오리지널 콘칩",
+      "metadata": {
+        "category": "스낵",
+        "weight": "90g",
+        "calories": 520,
+        "allergens": ["밀", "대두"]
+      }
+    },
+    {
+      "id": 3,
+      "type": "도시락",
+      "name": "장미향 치킨마요 덮밥",
+      "price": 4500,
+      "popularity": 92,
+      "description": "부드러운 치킨과 마요네즈가 어우러진 덮밥",
+      "metadata": {
+        "category": "식사",
+        "weight": "400g",
+        "calories": 650,
+        "allergens": ["계란", "대두", "밀"]
+      }
+    },
+    {
+      "id": 4,
+      "type": "음료",
+      "name": "반짝이는 튤립 딸기우유",
+      "price": 2200,
+      "popularity": 85,
+      "description": "신선한 우유와 딸기 과즙이 어우러진 음료",
+      "metadata": {
+        "category": "유제품",
+        "volume": "250ml",
+        "calories": 180,
+        "lactose": true
+      }
+    },
+    {
+      "id": 5,
+      "type": "빵",
+      "name": "웃는 강아지 크로와상",
+      "price": 2800,
+      "popularity": 90,
+      "description": "바삭한 겉과 부드러운 속의 크로와상",
+      "metadata": {
+        "category": "베이커리",
+        "weight": "80g",
+        "calories": 320,
+        "allergens": ["밀", "계란", "우유"]
+      }
+    },
+    {
+      "id": 6,
+      "type": "아이스크림",
+      "name": "반짝이는 펭귄 초코바",
+      "price": 1500,
+      "popularity": 87,
+      "description": "진한 초콜릿 코팅의 아이스크림",
+      "metadata": {
+        "category": "냉동식품",
+        "weight": "65g",
+        "calories": 210,
+        "allergens": ["우유", "대두"]
+      }
+    },
+    {
+      "id": 7,
+      "type": "음료",
+      "name": "웃는 코알라 레몬에이드",
+      "price": 2000,
+      "popularity": 82,
+      "description": "상큼한 레몬이 들어간 에이드",
+      "metadata": {
+        "category": "탄산음료",
+        "volume": "500ml",
+        "calories": 120,
+        "caffeine": false
+      }
+    },
+    {
+      "id": 8,
+      "type": "과자",
+      "name": "반짝이는 수달 양파링",
+      "price": 1600,
+      "popularity": 84,
+      "description": "바삭한 식감의 양파링",
+      "metadata": {
+        "category": "스낵",
+        "weight": "85g",
+        "calories": 480,
+        "allergens": ["밀", "대두"]
+      }
+    },
+    {
+      "id": 9,
+      "type": "도시락",
+      "name": "웃는 호랑이 불고기 도시락",
+      "price": 4800,
+      "popularity": 89,
+      "description": "달콤한 불고기와 다양한 반찬이 들어간 도시락",
+      "metadata": {
+        "category": "식사",
+        "weight": "450g",
+        "calories": 720,
+        "allergens": ["대두", "밀", "참깨"]
+      }
+    },
+    {
+      "id": 10,
+      "type": "빵",
+      "name": "반짝이는 벚꽃 단팥빵",
+      "price": 2200,
+      "popularity": 86,
+      "description": "부드러운 빵과 달콤한 팥앙금이 어우러진 단팥빵",
+      "metadata": {
+        "category": "베이커리",
+        "weight": "75g",
+        "calories": 280,
+        "allergens": ["밀", "계란", "우유"]
+      }
+    },
+    {
+      "id": 11,
+      "type": "음료",
+      "name": "웃는 여우 녹차라떼",
+      "price": 3000,
+      "popularity": 91,
+      "description": "진한 녹차와 부드러운 우유가 어우러진 라떼",
+      "metadata": {
+        "category": "커피",
+        "volume": "355ml",
+        "calories": 220,
+        "caffeine": true
+      }
+    },
+    {
+      "id": 12,
+      "type": "과자",
+      "name": "반짝이는 나비 초코쿠키",
+      "price": 2000,
+      "popularity": 88,
+      "description": "진한 초콜릿이 들어간 쿠키",
+      "metadata": {
+        "category": "스낵",
+        "weight": "100g",
+        "calories": 450,
+        "allergens": ["밀", "계란", "우유"]
+      }
+    },
+    {
+      "id": 13,
+      "type": "도시락",
+      "name": "웃는 물개 삼각김밥",
+      "price": 2800,
+      "popularity": 93,
+      "description": "참치와 마요네즈가 듬뿍 들어간 삼각김밥",
+      "metadata": {
+        "category": "식사",
+        "weight": "180g",
+        "calories": 380,
+        "allergens": ["참치", "계란", "대두"]
+      }
+    },
+    {
+      "id": 14,
+      "type": "음료",
+      "name": "반짝이는 백합 요구르트",
+      "price": 1800,
+      "popularity": 85,
+      "description": "상큼한 딸기와 요구르트가 어우러진 음료",
+      "metadata": {
+        "category": "유제품",
+        "volume": "200ml",
+        "calories": 150,
+        "lactose": true
+      }
+    },
+    {
+      "id": 15,
+      "type": "빵",
+      "name": "웃는 토끼 피자토스트",
+      "price": 3500,
+      "popularity": 87,
+      "description": "치즈와 토마토 소스가 들어간 피자 토스트",
+      "metadata": {
+        "category": "베이커리",
+        "weight": "150g",
+        "calories": 420,
+        "allergens": ["밀", "우유", "대두"]
+      }
+    },
+    {
+      "id": 16,
+      "type": "아이스크림",
+      "name": "반짝이는 북극곰 아이스크림",
+      "price": 2000,
+      "popularity": 90,
+      "description": "부드러운 바닐라 아이스크림",
+      "metadata": {
+        "category": "냉동식품",
+        "weight": "100g",
+        "calories": 250,
+        "allergens": ["우유"]
+      }
+    },
+    {
+      "id": 17,
+      "type": "음료",
+      "name": "웃는 기린 망고스무디",
+      "price": 3500,
+      "popularity": 86,
+      "description": "달콤한 망고가 들어간 스무디",
+      "metadata": {
+        "category": "음료",
+        "volume": "400ml",
+        "calories": 280,
+        "caffeine": false
+      }
+    },
+    {
+      "id": 18,
+      "type": "과자",
+      "name": "반짝이는 다람쥐 감자칩",
+      "price": 1700,
+      "popularity": 89,
+      "description": "바삭한 식감의 감자칩",
+      "metadata": {
+        "category": "스낵",
+        "weight": "95g",
+        "calories": 510,
+        "allergens": ["감자"]
+      }
+    },
+    {
+      "id": 19,
+      "type": "도시락",
+      "name": "웃는 사자 치킨너겟 도시락",
+      "price": 4200,
+      "popularity": 88,
+      "description": "바삭한 치킨너겟이 들어간 도시락",
+      "metadata": {
+        "category": "식사",
+        "weight": "400g",
+        "calories": 680,
+        "allergens": ["닭고기", "밀", "대두"]
+      }
+    },
+    {
+      "id": 20,
+      "type": "빵",
+      "name": "반짝이는 장미 크림빵",
+      "price": 2500,
+      "popularity": 84,
+      "description": "부드러운 빵과 달콤한 크림이 어우러진 크림빵",
+      "metadata": {
+        "category": "베이커리",
+        "weight": "85g",
+        "calories": 350,
+        "allergens": ["밀", "계란", "우유"]
+      }
+    },
+    {
+      "id": 21,
+      "type": "음료",
+      "name": "웃는 고양이 카페모카",
+      "price": 3500,
+      "popularity": 92,
+      "description": "진한 에스프레소와 초콜릿이 어우러진 모카",
+      "metadata": {
+        "category": "커피",
+        "volume": "355ml",
+        "calories": 280,
+        "caffeine": true
+      }
+    },
+    {
+      "id": 22,
+      "type": "과자",
+      "name": "반짝이는 나비 초코파이",
+      "price": 1200,
+      "popularity": 91,
+      "description": "부드러운 빵과 달콤한 초콜릿이 어우러진 초코파이",
+      "metadata": {
+        "category": "스낵",
+        "weight": "70g",
+        "calories": 320,
+        "allergens": ["밀", "계란", "우유"]
+      }
+    },
+    {
+      "id": 23,
+      "type": "도시락",
+      "name": "웃는 곰 제육볶음 도시락",
+      "price": 5000,
+      "popularity": 87,
+      "description": "매콤달콤한 제육볶음이 들어간 도시락",
+      "metadata": {
+        "category": "식사",
+        "weight": "450g",
+        "calories": 750,
+        "allergens": ["돼지고기", "대두", "참깨"]
+      }
+    },
+    {
+      "id": 24,
+      "type": "음료",
+      "name": "반짝이는 벚꽃 아이스티",
+      "price": 2500,
+      "popularity": 85,
+      "description": "상큼한 복숭아가 들어간 아이스티",
+      "metadata": {
+        "category": "음료",
+        "volume": "500ml",
+        "calories": 150,
+        "caffeine": true
+      }
+    },
+    {
+      "id": 25,
+      "type": "빵",
+      "name": "웃는 캥거루 베이글",
+      "price": 3000,
+      "popularity": 88,
+      "description": "쫄깃한 식감의 베이글",
+      "metadata": {
+        "category": "베이커리",
+        "weight": "90g",
+        "calories": 280,
+        "allergens": ["밀"]
+      }
+    },
+    {
+      "id": 26,
+      "type": "아이스크림",
+      "name": "반짝이는 페가수스 아이스크림",
+      "price": 2500,
+      "popularity": 86,
+      "description": "상쾌한 민트와 초콜릿이 어우러진 아이스크림",
+      "metadata": {
+        "category": "냉동식품",
+        "weight": "80g",
+        "calories": 230,
+        "allergens": ["우유", "대두"]
+      }
+    },
+    {
+      "id": 27,
+      "type": "음료",
+      "name": "웃는 앵무새 딸기스무디",
+      "price": 3500,
+      "popularity": 89,
+      "description": "상큼한 딸기가 들어간 스무디",
+      "metadata": {
+        "category": "음료",
+        "volume": "400ml",
+        "calories": 260,
+        "caffeine": false
+      }
+    },
+    {
+      "id": 28,
+      "type": "과자",
+      "name": "반짝이는 해마 새우깡",
+      "price": 1500,
+      "popularity": 90,
+      "description": "바삭한 식감의 새우깡",
+      "metadata": {
+        "category": "스낵",
+        "weight": "90g",
+        "calories": 490,
+        "allergens": ["새우", "밀"]
+      }
+    },
+    {
+      "id": 29,
+      "type": "도시락",
+      "name": "웃는 코끼리 김치찌개 도시락",
+      "price": 4500,
+      "popularity": 86,
+      "description": "얼큰한 김치찌개가 들어간 도시락",
+      "metadata": {
+        "category": "식사",
+        "weight": "420g",
+        "calories": 680,
+        "allergens": ["돼지고기", "대두", "참깨"]
+      }
+    },
+    {
+      "id": 30,
+      "type": "빵",
+      "name": "반짝이는 수국 소금빵",
+      "price": 2000,
+      "popularity": 83,
+      "description": "바삭한 겉과 부드러운 속의 소금빵",
+      "metadata": {
+        "category": "베이커리",
+        "weight": "75g",
+        "calories": 250,
+        "allergens": ["밀", "우유"]
+      }
+    }
+  ]
+}

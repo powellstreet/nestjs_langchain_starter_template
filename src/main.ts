@@ -2,6 +2,7 @@ import { NestFactory } from '@nestjs/core';
 import { ValidationPipe } from '@nestjs/common';
 import { SwaggerModule } from '@nestjs/swagger';
 import { createSwaggerConfig } from './config/swagger.config';
+import { Logger } from '@nestjs/common';
 
 import { ResponseInterceptor, LoggingInterceptor } from './common/interceptors';
 import { HttpExceptionFilter } from './common/filters';
@@ -9,7 +10,12 @@ import { HttpExceptionFilter } from './common/filters';
 import { AppModule } from './app.module';
 
 async function bootstrap() {
-  const app = await NestFactory.create(AppModule);
+  const app = await NestFactory.create(AppModule, {
+    logger: ['error', 'warn', 'debug', 'log', 'verbose'],
+  });
+
+  const logger = new Logger('Bootstrap');
+  logger.debug('Application starting with debug logging enabled');
 
   // Interceptors
   app.useGlobalInterceptors(new ResponseInterceptor());

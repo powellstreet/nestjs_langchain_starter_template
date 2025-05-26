@@ -1,0 +1,454 @@
+{
+  "players": [
+    {
+      "id": "1",
+      "name": "Erling Haaland",
+      "team": "Manchester City",
+      "birthYear": 2000,
+      "position": "Striker",
+      "goals": 58,
+      "assists": 5,
+      "rating": 8.7,
+      "metadata": {
+        "nationality": "Norway",
+        "height": "194cm",
+        "lastUpdated": "2024-03-21"
+      }
+    },
+    {
+      "id": "2",
+      "name": "Mohamed Salah",
+      "team": "Liverpool",
+      "birthYear": 1992,
+      "position": "Right Winger",
+      "goals": 18,
+      "assists": 9,
+      "rating": 8.5,
+      "metadata": {
+        "nationality": "Egypt",
+        "height": "175cm",
+        "lastUpdated": "2024-03-20"
+      }
+    },
+    {
+      "id": "3",
+      "name": "Kevin De Bruyne",
+      "team": "Manchester City",
+      "birthYear": 1991,
+      "position": "Attacking Midfielder",
+      "goals": 4,
+      "assists": 14,
+      "rating": 8.3,
+      "metadata": {
+        "nationality": "Belgium",
+        "height": "181cm",
+        "lastUpdated": "2024-03-20"
+      }
+    },
+    {
+      "id": "4",
+      "name": "Bukayo Saka",
+      "team": "Arsenal",
+      "birthYear": 2001,
+      "position": "Right Winger",
+      "goals": 15,
+      "assists": 8,
+      "rating": 8.2,
+      "metadata": {
+        "nationality": "England",
+        "height": "178cm",
+        "lastUpdated": "2024-03-20"
+      }
+    },
+    {
+      "id": "5",
+      "name": "Rodri",
+      "team": "Manchester City",
+      "birthYear": 1996,
+      "position": "Defensive Midfielder",
+      "goals": 7,
+      "assists": 4,
+      "rating": 8.1,
+      "metadata": {
+        "nationality": "Spain",
+        "height": "191cm",
+        "lastUpdated": "2024-03-20"
+      }
+    },
+    {
+      "id": "6",
+      "name": "Ollie Watkins",
+      "team": "Aston Villa",
+      "birthYear": 1995,
+      "position": "Striker",
+      "goals": 16,
+      "assists": 10,
+      "rating": 8.0,
+      "metadata": {
+        "nationality": "England",
+        "height": "180cm",
+        "lastUpdated": "2024-03-20"
+      }
+    },
+    {
+      "id": "7",
+      "name": "Bruno Fernandes",
+      "team": "Manchester United",
+      "birthYear": 1994,
+      "position": "Attacking Midfielder",
+      "goals": 7,
+      "assists": 8,
+      "rating": 7.9,
+      "metadata": {
+        "nationality": "Portugal",
+        "height": "179cm",
+        "lastUpdated": "2024-03-20"
+      }
+    },
+    {
+      "id": "8",
+      "name": "Cole Palmer",
+      "team": "Chelsea",
+      "birthYear": 2002,
+      "position": "Attacking Midfielder",
+      "goals": 14,
+      "assists": 9,
+      "rating": 7.8,
+      "metadata": {
+        "nationality": "England",
+        "height": "189cm",
+        "lastUpdated": "2024-03-20"
+      }
+    },
+    {
+      "id": "9",
+      "name": "Jarrod Bowen",
+      "team": "West Ham United",
+      "birthYear": 1996,
+      "position": "Right Winger",
+      "goals": 15,
+      "assists": 4,
+      "rating": 7.7,
+      "metadata": {
+        "nationality": "England",
+        "height": "175cm",
+        "lastUpdated": "2024-03-20"
+      }
+    },
+    {
+      "id": "10",
+      "name": "Dominic Solanke",
+      "team": "Bournemouth",
+      "birthYear": 1997,
+      "position": "Striker",
+      "goals": 15,
+      "assists": 3,
+      "rating": 7.6,
+      "metadata": {
+        "nationality": "England",
+        "height": "187cm",
+        "lastUpdated": "2024-03-20"
+      }
+    },
+    {
+      "id": "11",
+      "name": "Alexander Isak",
+      "team": "Newcastle United",
+      "birthYear": 1999,
+      "position": "Striker",
+      "goals": 14,
+      "assists": 1,
+      "rating": 7.5,
+      "metadata": {
+        "nationality": "Sweden",
+        "height": "192cm",
+        "lastUpdated": "2024-03-20"
+      }
+    },
+    {
+      "id": "12",
+      "name": "Phil Foden",
+      "team": "Manchester City",
+      "birthYear": 2000,
+      "position": "Attacking Midfielder",
+      "goals": 11,
+      "assists": 7,
+      "rating": 7.4,
+      "metadata": {
+        "nationality": "England",
+        "height": "171cm",
+        "lastUpdated": "2024-03-20"
+      }
+    },
+    {
+      "id": "13",
+      "name": "Son Heung-min",
+      "team": "Tottenham Hotspur",
+      "birthYear": 1992,
+      "position": "Left Winger",
+      "goals": 15,
+      "assists": 8,
+      "rating": 7.3,
+      "metadata": {
+        "nationality": "South Korea",
+        "height": "183cm",
+        "lastUpdated": "2024-03-20"
+      }
+    },
+    {
+      "id": "14",
+      "name": "Declan Rice",
+      "team": "Arsenal",
+      "birthYear": 1999,
+      "position": "Defensive Midfielder",
+      "goals": 6,
+      "assists": 5,
+      "rating": 7.2,
+      "metadata": {
+        "nationality": "England",
+        "height": "185cm",
+        "lastUpdated": "2024-03-20"
+      }
+    },
+    {
+      "id": "15",
+      "name": "William Saliba",
+      "team": "Arsenal",
+      "birthYear": 2001,
+      "position": "Centre Back",
+      "goals": 2,
+      "assists": 1,
+      "rating": 7.1,
+      "metadata": {
+        "nationality": "France",
+        "height": "192cm",
+        "lastUpdated": "2024-03-20"
+      }
+    },
+    {
+      "id": "16",
+      "name": "Alisson",
+      "team": "Liverpool",
+      "birthYear": 1992,
+      "position": "Goalkeeper",
+      "goals": 0,
+      "assists": 1,
+      "rating": 7.0,
+      "metadata": {
+        "nationality": "Brazil",
+        "height": "191cm",
+        "lastUpdated": "2024-03-20"
+      }
+    },
+    {
+      "id": "17",
+      "name": "Virgil van Dijk",
+      "team": "Liverpool",
+      "birthYear": 1991,
+      "position": "Centre Back",
+      "goals": 3,
+      "assists": 1,
+      "rating": 7.0,
+      "metadata": {
+        "nationality": "Netherlands",
+        "height": "193cm",
+        "lastUpdated": "2024-03-20"
+      }
+    },
+    {
+      "id": "18",
+      "name": "Martin Odegaard",
+      "team": "Arsenal",
+      "birthYear": 1998,
+      "position": "Attacking Midfielder",
+      "goals": 8,
+      "assists": 7,
+      "rating": 7.0,
+      "metadata": {
+        "nationality": "Norway",
+        "height": "178cm",
+        "lastUpdated": "2024-03-20"
+      }
+    },
+    {
+      "id": "19",
+      "name": "Rodrigo Bentancur",
+      "team": "Tottenham Hotspur",
+      "birthYear": 1997,
+      "position": "Central Midfielder",
+      "goals": 5,
+      "assists": 2,
+      "rating": 6.9,
+      "metadata": {
+        "nationality": "Uruguay",
+        "height": "187cm",
+        "lastUpdated": "2024-03-20"
+      }
+    },
+    {
+      "id": "20",
+      "name": "Douglas Luiz",
+      "team": "Aston Villa",
+      "birthYear": 1998,
+      "position": "Central Midfielder",
+      "goals": 9,
+      "assists": 5,
+      "rating": 6.8,
+      "metadata": {
+        "nationality": "Brazil",
+        "height": "178cm",
+        "lastUpdated": "2024-03-20"
+      }
+    },
+    {
+      "id": "21",
+      "name": "Anthony Gordon",
+      "team": "Newcastle United",
+      "birthYear": 2001,
+      "position": "Left Winger",
+      "goals": 9,
+      "assists": 5,
+      "rating": 6.8,
+      "metadata": {
+        "nationality": "England",
+        "height": "183cm",
+        "lastUpdated": "2024-03-20"
+      }
+    },
+    {
+      "id": "22",
+      "name": "Pascal Gross",
+      "team": "Brighton & Hove Albion",
+      "birthYear": 1991,
+      "position": "Central Midfielder",
+      "goals": 4,
+      "assists": 10,
+      "rating": 6.7,
+      "metadata": {
+        "nationality": "Germany",
+        "height": "181cm",
+        "lastUpdated": "2024-03-20"
+      }
+    },
+    {
+      "id": "23",
+      "name": "Joao Palhinha",
+      "team": "Fulham",
+      "birthYear": 1995,
+      "position": "Defensive Midfielder",
+      "goals": 3,
+      "assists": 1,
+      "rating": 6.7,
+      "metadata": {
+        "nationality": "Portugal",
+        "height": "190cm",
+        "lastUpdated": "2024-03-20"
+      }
+    },
+    {
+      "id": "24",
+      "name": "Pedro Neto",
+      "team": "Wolverhampton Wanderers",
+      "birthYear": 2000,
+      "position": "Right Winger",
+      "goals": 2,
+      "assists": 9,
+      "rating": 6.6,
+      "metadata": {
+        "nationality": "Portugal",
+        "height": "172cm",
+        "lastUpdated": "2024-03-20"
+      }
+    },
+    {
+      "id": "25",
+      "name": "Matheus Cunha",
+      "team": "Wolverhampton Wanderers",
+      "birthYear": 1999,
+      "position": "Striker",
+      "goals": 11,
+      "assists": 6,
+      "rating": 6.6,
+      "metadata": {
+        "nationality": "Brazil",
+        "height": "184cm",
+        "lastUpdated": "2024-03-20"
+      }
+    },
+    {
+      "id": "26",
+      "name": "Jordan Pickford",
+      "team": "Everton",
+      "birthYear": 1994,
+      "position": "Goalkeeper",
+      "goals": 0,
+      "assists": 0,
+      "rating": 6.5,
+      "metadata": {
+        "nationality": "England",
+        "height": "185cm",
+        "lastUpdated": "2024-03-20"
+      }
+    },
+    {
+      "id": "27",
+      "name": "James Ward-Prowse",
+      "team": "West Ham United",
+      "birthYear": 1994,
+      "position": "Central Midfielder",
+      "goals": 3,
+      "assists": 7,
+      "rating": 6.5,
+      "metadata": {
+        "nationality": "England",
+        "height": "173cm",
+        "lastUpdated": "2024-03-20"
+      }
+    },
+    {
+      "id": "28",
+      "name": "Alexis Mac Allister",
+      "team": "Liverpool",
+      "birthYear": 1998,
+      "position": "Central Midfielder",
+      "goals": 4,
+      "assists": 5,
+      "rating": 6.4,
+      "metadata": {
+        "nationality": "Argentina",
+        "height": "176cm",
+        "lastUpdated": "2024-03-20"
+      }
+    },
+    {
+      "id": "29",
+      "name": "Morgan Gibbs-White",
+      "team": "Nottingham Forest",
+      "birthYear": 2000,
+      "position": "Attacking Midfielder",
+      "goals": 4,
+      "assists": 6,
+      "rating": 6.4,
+      "metadata": {
+        "nationality": "England",
+        "height": "171cm",
+        "lastUpdated": "2024-03-20"
+      }
+    },
+    {
+      "id": "30",
+      "name": "Andreas Pereira",
+      "team": "Fulham",
+      "birthYear": 1996,
+      "position": "Attacking Midfielder",
+      "goals": 3,
+      "assists": 6,
+      "rating": 6.3,
+      "metadata": {
+        "nationality": "Brazil",
+        "height": "177cm",
+        "lastUpdated": "2024-03-20"
+      }
+    }
+  ]
+}
