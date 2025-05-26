@@ -1,0 +1,37 @@
+{
+  "articles": [
+    {
+      "id": "1",
+      "title": "LangChain 소개",
+      "content": "LangChain은 LLM 애플리케이션을 개발하기 위한 프레임워크입니다. 체인, 에이전트, 메모리 등 다양한 컴포넌트를 제공하여 복잡한 LLM 애플리케이션을 쉽게 구축할 수 있습니다.",
+      "category": "기술",
+      "tags": ["AI", "LLM", "LangChain"],
+      "metadata": {
+        "created_at": "2024-03-20",
+        "author": "AI 개발자"
+      }
+    },
+    {
+      "id": "2",
+      "title": "RAG 시스템의 구성 요소",
+      "content": "RAG(Retrieval-Augmented Generation) 시스템은 검색과 생성의 결합입니다. 주요 구성 요소로는 문서 로더, 임베딩 생성기, 벡터 저장소, 그리고 LLM이 있습니다.",
+      "category": "기술",
+      "tags": ["RAG", "AI", "검색"],
+      "metadata": {
+        "created_at": "2024-03-20",
+        "author": "AI 연구원"
+      }
+    },
+    {
+      "id": "3",
+      "title": "벡터 데이터베이스의 역할",
+      "content": "벡터 데이터베이스는 임베딩 벡터를 저장하고 유사도 검색을 수행하는 데 사용됩니다. PostgreSQL의 pgvector, Pinecone, Weaviate 등이 대표적인 벡터 데이터베이스입니다.",
+      "category": "기술",
+      "tags": ["벡터 DB", "임베딩", "검색"],
+      "metadata": {
+        "created_at": "2024-03-20",
+        "author": "데이터 엔지니어"
+      }
+    }
+  ]
+}
