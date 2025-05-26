@@ -1,6 +1,5 @@
 # Project Name
-
-프로젝트를 설명해주세요.
+nest.js 와 langchain.js 를 기반으로 빠르게 프로젝트를 시작하기 위한 커스텀 템플릿입니다. 프로젝트를 설명해주세요.
 
 ## Getting Started
 
