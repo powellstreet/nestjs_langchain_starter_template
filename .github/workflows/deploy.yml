@@ -1,0 +1,36 @@
+name: Deploy to EC2
+
+on:
+  push:
+    branches:
+      - main # 🔧 배포에 사용할 기본 브랜치 (필요시 다른 브랜치 추가)
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1. 코드 체크아웃
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      # 2. SSH 키 설정
+      - name: Set up SSH
+        uses: webfactory/ssh-agent@v0.5.3
+        with:
+          ssh-private-key: ${{ secrets.EC2_SSH_KEY }} # 🔧 GitHub Secrets에 저장된 SSH 키 사용
+
+      # 3. EC2 서버에 배포 스크립트 실행
+      - name: Deploy to EC2
+        env:
+          PROJECT_NAME: your-app-name # 🔧 배포할 프로젝트 이름 (예: my-app)
+          DEPLOY_DIR: /home/ec2-user/your-app-dir # 🔧 EC2 서버에서 프로젝트 디렉토리 (예: /home/ec2-user/my-app)
+          BRANCH: ${{ github.ref_name }} # 푸시된 브랜치 자동 감지 (필요 시 고정값 설정 가능)
+        run: |
+          ssh -o StrictHostKeyChecking=no ${{ secrets.EC2_USER }}@${{ secrets.EC2_HOST }} << 'EOF'
+          cd $DEPLOY_DIR
+          git pull origin $BRANCH          # 🔧 필요시 origin과 BRANCH를 고정값으로 변경
+          yarn install --frozen-lockfile
+          yarn build 
+          pm2 restart $PROJECT_NAME || pm2 start dist/main.js --name $PROJECT_NAME
+          EOF
